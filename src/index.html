@@ -12,7 +12,29 @@
     />
   </head>
   <body>
+
+    <div class="container">
+
+      <form class="search-form" id="search-form">
+        <input
+          class="search-form-input"
+          type="text"
+          name="query"
+          autocomplete="off"
+          placeholder="Введите запрос..."
+        />
+
+        <button type="submit">Искать</button>
+      </form>
+
+      <ul class="gallery">
+        <!-- Список <li> с карточками изображений -->
+      </ul>
+
+      <button class="is-hidden load-more-btn" data-action="is-open">Показать ещё</button>
+    </div>
    
+
     <script src="./index.js"></script>
   </body>
 </html>
